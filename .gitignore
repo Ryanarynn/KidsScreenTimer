@@ -1,0 +1,39 @@
+# =====================================================
+# SOURCE CODE & ASET PRIBADI (tidak dipublikasikan)
+# =====================================================
+*.cs
+*.wav
+*.mp3
+
+# =====================================================
+# File runtime sementara - tidak perlu di-commit
+# =====================================================
+bot_log.txt
+build_log.txt
+temp_voicenote.ogg
+screenshot_*.jpg
+screenshot_*.png
+build_log.txt
+
+# =====================================================
+# ffplay / FFmpeg (terlalu besar >100MB untuk GitHub)
+# Download via setup_ffplay.cmd
+# =====================================================
+ffplay.exe
+ffmpeg.exe
+ffprobe.exe
+
+# =====================================================
+# File build & debug sementara
+# =====================================================
+*.pdb
+test.exe
+*.cache
+*.log
+build.cmd
+build_log.txt
+
+# =====================================================
+# Config pribadi (tersimpan di AppData, bukan di sini)
+# =====================================================
+*.dat
