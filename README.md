@@ -8,7 +8,7 @@ Tool untuk mengontrol dan membatasi waktu layar PC anak lewat Telegram tanpa ser
 
 Aplikasi parental control di pasaran kebanyakan berbayar, kompleks, atau butuh akun cloud. Saya ingin sesuatu yang simpel: **buka Telegram, pencet tombol, PC anak terkunci.** Itu saja.
 
-Proyek ini jalan langsung di PC anak. Bot Telegram-nya cuma jembatan — tidak ada data yang lewat server lain.
+Proyek ini jalan langsung di PC anak. Bot Telegram-nya cuma jembatan tidak ada data yang lewat server lain.
 
 ---
 
@@ -38,7 +38,7 @@ Semua kontrol lewat bot Telegram. Setelah setup, ketik `/menu` di chat bot:
 /laporan     → lihat riwayat sesi hari ini
 ```
 
-Atau pakai tombol inline langsung dari menu — tidak perlu hafal perintah.
+Atau pakai tombol inline langsung dari menu, tidak perlu hafal perintah.
 
 **Kirim voice note** ke bot → diputar otomatis di PC anak.  
 **Catatan:** pertama kali kirim voice note, app akan download ~40MB komponen audio otomatis.
@@ -67,7 +67,7 @@ Atau pakai tombol inline langsung dari menu — tidak perlu hafal perintah.
 
 ## Multi-PC
 
-Pasang di PC kedua, ketiga, dst dengan **Bot Token yang sama** tapi **Nama PC berbeda**. Tiap PC kirim menu sendiri berlabel namanya. Tombol sudah diarahkan otomatis — tidak akan salah PC.
+Pasang di PC kedua, ketiga, dst dengan **Bot Token yang sama** tapi **Nama PC berbeda**. Tiap PC kirim menu sendiri berlabel namanya. Tombol sudah diarahkan otomatis tidak akan salah PC.
 
 ---
 
@@ -94,8 +94,8 @@ Ambil file WAV gratis di [Mixkit](https://mixkit.co/free-sound-effects/) atau [P
 
 ## Hal yang Perlu Diperhatikan
 
-- **ffplay.exe tidak ikut di-download** bareng `.exe` ini karena ukurannya 200MB+. App akan otomatis download saat pertama kali ada voice note masuk — butuh koneksi internet saat itu.
-- **Konfigurasi (token, PIN) disimpan terenkripsi** di `%APPDATA%\KidsScreenTimer\` pakai Windows DPAPI. Artinya config terikat ke akun Windows — kalau reinstall Windows, perlu setup ulang.
+- **ffplay.exe tidak ikut di-download** bareng `.exe` ini karena ukurannya 200MB+. App akan otomatis download saat pertama kali ada voice note masuk butuh koneksi internet saat itu.
+- **Konfigurasi (token, PIN) disimpan terenkripsi** di `%APPDATA%\KidsScreenTimer\` pakai Windows DPAPI. Artinya config terikat ke akun Windows kalau reinstall Windows, perlu setup ulang.
 
 ---
 
